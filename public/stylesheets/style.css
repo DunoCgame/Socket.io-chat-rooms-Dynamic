@@ -1,0 +1,155 @@
+body{
+	background:white;
+}
+
+/*area login**/
+#sectionAdduser{
+	background:grey;
+	height:90vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+}
+
+#sectionAdduser>h1{
+	text-align:center;
+	color:white;
+	
+}
+
+#sectionAdduser>div{
+	/* background:red; */
+	/* width:200px; */	
+}
+
+#sectionAdduser>div>input,#sectionAdduser>div>button{
+	
+	border-style:none;
+	height:30px;
+	/* width:400px; */
+}
+
+#sectionAdduser>div>button{
+	background:blue;
+	color:white;
+	width:60px;
+}
+
+
+
+
+
+	#selectChat{
+	
+			display:none;
+			background:grey;
+			
+	
+	}	
+	
+	#selectChat>h1{
+	
+			color:white;
+			text-align:center;
+			
+	
+	}	
+	#selectChat>h2{
+	
+			color:white;
+			text-align:center;
+			
+	
+	}
+	#SectionUser{
+			overflow-y:scroll;
+		height:350px;
+		background:grey;
+		
+	}
+	
+	.Areajoin{
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		background:white;
+		padding:5px;
+		margin:5px;
+	}
+	.Areajoin>button{
+		background:blue;
+		color:white;
+		border-style:none;
+		
+	}
+	.Areajoin>p{
+		font-weight:bold;
+	}
+	
+	/****chat***/
+
+	#sectionChat{
+			background:grey;
+			display:none;
+	
+	}	
+	.titles{
+		display:flex;
+		justify-content: space-between;
+		color:white;
+		
+		
+	}
+	#back{
+		background:blue;
+		color:white;
+		border-style:none;
+	}
+	
+	#messageInput {
+		width: 80%;
+		height: 40px;
+	}
+	#send {
+		width: 19%;
+		height: 40px;
+		background: blue;
+		color: white;
+		border-style: none;
+	}
+	
+	
+#actions{
+	color:BLUE;
+}
+
+#output{
+
+	padding:5px;
+	margin:3px;
+	overflow-y:scroll;
+	height:200px;
+	background-color: #bfbfbf;
+	 display: flex;
+  flex-direction:column;
+	
+}
+
+.sms{
+	align-self:flex-end;
+	background:grey;
+	color:white;
+	padding:10px;
+	text-align:left;
+	width: 30%;
+}
+
+.active{
+	align-self:flex-start;
+	background:blue;
+	color:white;
+	padding:10px;
+	width: 30%;
+}
