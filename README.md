@@ -4,6 +4,6 @@ App Socket.io-chat-rooms-Dynamic
 
 ## Images de la App
 
-![Esta es una imagen](game/Image/Portada/Portada.png)
-![Esta es una imagen](game/Image/Select-Players/Select.png)
-![Esta es una imagen](game/Image/image/GamePlay.png)
+![Esta es una imagen](image1.png)
+![Esta es una imagen](img2.png)
+![Esta es una imagen](img3.png)
